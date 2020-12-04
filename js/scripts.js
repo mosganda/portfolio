@@ -79,7 +79,7 @@ let feedback = document.querySelector('#feedback');
 
 
 form.addEventListener('submit', function(e){
-    e.preventDefault();
+    //e.preventDefault();
 feedback.innerHTML = `Hi ${name.value}, your message has been submitted successfully.`;
 setTimeout(function(){
  feedback.innerHTML = "";
